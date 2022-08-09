@@ -28,7 +28,7 @@ function getTemplate(
     ${buttonText ? `<button type="button" class="frc-button">${buttonText}</button>` : ""}
     ${progress ? `<progress class="frc-progress" value="0">0%</progress>` : ""}
 </div>
-</div><span class="frc-banner"><a lang="en" href="https://friendlycaptcha.com/" rel="noopener" target="_blank"><b>Friendly</b>Captcha ⇗</a></span>
+</div><span class="frc-banner"><a lang="en" href="https://friendlycaptcha.com/" rel="noopener" target="_blank"><b>Friendly</b>Captcha &#8663;</a></span>
 <input name="${fieldName}" class="frc-captcha-solution" type="hidden" value="${solutionString}">`;
 }
 
